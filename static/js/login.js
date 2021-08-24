@@ -19,7 +19,7 @@ function onSignOut(){
 }
 
 function hideDashboard(){
-    var x = document.getElementsByClassName("only;ogged");
+    var x = document.getElementsByClassName("onlylogged");
     var i;
     for(i=0;i<=x.length;i++){
         x[i].classList.add("logged");
